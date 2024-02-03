@@ -34,12 +34,154 @@ const sinais = [
     💎🟦🟦🟦💎
     🟦🟦🟦💎🟦
     🟦💎🟦🟦🟦
+    `,
     `
+    💸 ENTRADA CONFIRMADA! 
+    💣 Bombas: value0
+    🕑 Validade: value1
+    🔁 Tentativas: 2
+    
+    🎰 Jogue aqui! 👉🏻 brdouble.com 👈🏻
+    
+    💎🟦🟦💎🟦
+    🟦🟦🟦🟦🟦
+    💎🟦🟦🟦🟦
+    🟦💎🟦🟦🟦
+    🟦🟦🟦🟦🟦
+    `,
+    `
+    💸 ENTRADA CONFIRMADA! 
+    💣 Bombas: value0
+    🕑 Validade: value1
+    🔁 Tentativas: 2
+    
+    🎰 Jogue aqui! 👉🏻 brdouble.com 👈🏻
+    
+    🟦🟦🟦💎🟦
+    🟦🟦🟦🟦🟦
+    🟦🟦🟦💎💎
+    🟦💎🟦🟦🟦
+    🟦🟦🟦🟦🟦
+    `,
+    `
+    💸 ENTRADA CONFIRMADA! 
+    💣 Bombas: value0
+    🕑 Validade: value1
+    🔁 Tentativas: 2
+    
+    🎰 Jogue aqui! 👉🏻 brdouble.com 👈🏻
+    
+    🟦💎🟦🟦🟦
+    🟦🟦🟦💎🟦
+    🟦🟦💎🟦🟦
+    🟦🟦🟦🟦🟦
+    🟦🟦🟦🟦🟦
+    `,
+    `
+    💸 ENTRADA CONFIRMADA! 
+    💣 Bombas: value0
+    🕑 Validade: value1
+    🔁 Tentativas: 2
+    
+    🎰 Jogue aqui! 👉🏻 brdouble.com 👈🏻
+    
+    🟦💎🟦🟦🟦
+    🟦🟦💎🟦🟦
+    🟦🟦🟦🟦🟦
+    🟦🟦🟦💎🟦
+    🟦🟦🟦💎🟦
+    `,
+    `
+    💸 ENTRADA CONFIRMADA! 
+    💣 Bombas: value0
+    🕑 Validade: value1
+    🔁 Tentativas: 2
+    
+    🎰 Jogue aqui! 👉🏻 brdouble.com 👈🏻
+    
+    🟦🟦🟦🟦🟦
+    🟦🟦💎🟦🟦
+    🟦💎🟦🟦🟦
+    🟦🟦🟦🟦🟦
+    🟦💎🟦💎🟦
+    `,
+    `
+    💸 ENTRADA CONFIRMADA! 
+    💣 Bombas: value0
+    🕑 Validade: value1
+    🔁 Tentativas: 2
+    
+    🎰 Jogue aqui! 👉🏻 brdouble.com 👈🏻
+    
+    🟦🟦🟦🟦🟦
+    🟦🟦🟦💎🟦
+    🟦🟦🟦🟦🟦
+    🟦💎🟦🟦💎
+    🟦🟦🟦💎🟦
+    `,
+    `
+    💸 ENTRADA CONFIRMADA! 
+    💣 Bombas: value0
+    🕑 Validade: value1
+    🔁 Tentativas: 2
+    
+    🎰 Jogue aqui! 👉🏻 brdouble.com 👈🏻
+    
+    🟦💎🟦🟦🟦
+    🟦🟦🟦🟦💎
+    🟦🟦🟦🟦🟦
+    💎🟦🟦🟦🟦
+    🟦🟦🟦💎🟦
+    `,
+    `
+    💸 ENTRADA CONFIRMADA! 
+    💣 Bombas: value0
+    🕑 Validade: value1
+    🔁 Tentativas: 2
+    
+    🎰 Jogue aqui! 👉🏻 brdouble.com 👈🏻
+    
+    🟦🟦🟦🟦💎
+    🟦🟦🟦💎🟦
+    🟦🟦🟦🟦🟦
+    🟦🟦🟦🟦💎
+    🟦🟦🟦🟦🟦
+    `,
+    `
+    💸 ENTRADA CONFIRMADA! 
+    💣 Bombas: value0
+    🕑 Validade: value1
+    🔁 Tentativas: 2
+    
+    🎰 Jogue aqui! 👉🏻 brdouble.com 👈🏻
+    
+    🟦🟦🟦🟦🟦
+    🟦🟦💎🟦💎
+    🟦🟦🟦💎🟦
+    🟦🟦🟦🟦🟦
+    🟦🟦💎🟦🟦
+    `,
+    `
+    💸 ENTRADA CONFIRMADA! 
+    💣 Bombas: value0
+    🕑 Validade: value1
+    🔁 Tentativas: 2
+    
+    🎰 Jogue aqui! 👉🏻 brdouble.com 👈🏻
+    
+    🟦🟦🟦🟦🟦
+    🟦💎💎💎🟦
+    💎🟦🟦🟦🟦
+    🟦🟦🟦🟦🟦
+    🟦🟦🟦🟦🟦
+    `,
+    
 ]
 
 // Comando /start
 bot.start((ctx) =>{
     
+    console.log(sinais.length())
     // Se o tipo do chat for igual a grupo ele executa o if
     if(ctx.chat.type === "group"){
         
